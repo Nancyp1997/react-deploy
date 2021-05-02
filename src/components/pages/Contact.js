@@ -31,7 +31,7 @@ export default function Contact() {
                 <i className="fa fa-envelope" aria-hidden="true"></i>
               </p>
             </a>
-            <a class="social-icon-link1 instagram" target="_blank" aria-label="Instagram" href="/react-deploy/instagram">
+            <a class="social-icon-link1 instagram" target="_blank" aria-label="Instagram" href="https://www.instagram.com/nancyandbirdies21/">
               <p>
                 <i className='fab fa-instagram' />
               </p>
