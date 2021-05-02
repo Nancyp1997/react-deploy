@@ -16,6 +16,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/react-deploy" exact component={Home} />
         <Route path="/services" exact component={Services} />
         <Route path="/projects" exact component={Products} />
         
