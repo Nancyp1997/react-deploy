@@ -14,7 +14,7 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <Link to='/react-deploy' className='social-logo'>
               Nancy Pitta
             </Link>
           </div>
@@ -22,7 +22,7 @@ function Footer() {
           <div className='social-icons'>
             {/* <Link
               class='social-icon-link facebook'
-              to='/'
+              to='/react-deploy'
               target='_blank'
               aria-label='Facebook'
             >
@@ -30,7 +30,7 @@ function Footer() {
             </Link> */}
             <Link
               className='social-icon-link instagram'
-              to='/instagram'
+              to='/react-deploy/instagram'
               target='_blank'
               aria-label='Instagram'
             >
@@ -39,7 +39,7 @@ function Footer() {
             
             <Link
               className='social-icon-link github'
-              to='/github'
+              to='/react-deploy/github'
               target='_blank'
               aria-label='Github'
             >
@@ -47,7 +47,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link linkedin'
-              to='/linkedin'
+              to='/react-deploy/linkedin'
               target='_blank'
               aria-label='LinkedIn'
             >

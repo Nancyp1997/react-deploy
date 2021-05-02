@@ -29,7 +29,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/react-deploy' className='navbar-logo' onClick={closeMobileMenu}>
             Nancy Pitta
             {/* <i class='fab fa-typo3' /> */}
           </Link>
@@ -38,14 +38,14 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/react-deploy' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             
             <li className='nav-item'>
               <Link
-                to='/projects'
+                to='/react-deploy/projects'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -54,7 +54,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/resume'
+                to='/react-deploy/resume'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -64,7 +64,7 @@ function Navbar() {
             
             <li className='nav-item'>
               <Link
-                to='/contact'
+                to='/react-deploy/contact'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >

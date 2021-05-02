@@ -6,7 +6,9 @@ import img1 from '../images/propic.png';
 
 
 function shit(){
-  window.location.href='/resume';
+  //window.location.href='/react-deploy/resume';
+  window.open ( '/react-deploy/a10.pdf');
+          window.location.href="/react-deploy";
   return;
 }
 

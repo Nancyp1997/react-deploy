@@ -22,7 +22,7 @@ function Cards() {
               src={chatimg}
               text='CHAT ROOM APP'
               label='NODEJS, BOOTSTRAP, HTML'
-              path='/chatapp'
+              path='/react-deploy/chatapp'
               description='Users can create rooms and let users to enter rooms and chat in groups.'
             />
 
@@ -31,7 +31,7 @@ function Cards() {
               src={airplane}
               text='AIRLINES APPLICATION'
               label='SPRING, JAVA'
-              path='/airlines'
+              path='/react-deploy/airlines'
               description='Used data from external RESTful APIs to populate flight data and to manage bookings.'
             />
           </ul>
@@ -40,14 +40,14 @@ function Cards() {
               src={fr}
               text='FACE RECOGNITION'
               label='COMPUTER VISION, PYTHON, OPENCV'
-              path='/facerecognition'
+              path='/react-deploy/facerecognition'
               description='Works on both images and videos'
             />
             <CardItem
               src={fd}
               text='FACE DETECTION'
               label='COMPUTER VISION, PYTHON, OPENCV'
-              path='/facedetection'
+              path='/react-deploy/facedetection'
               description=''
             />
           </ul>

@@ -21,7 +21,7 @@ export default function Contact() {
 
           <div className='float-child2'>
 
-            <a class="social-icon-link1 linkedin" target="_blank" aria-label="LinkedIn" href="/linkedin">
+            <a class="social-icon-link1 linkedin" target="_blank" aria-label="LinkedIn" href="/react-deploy/linkedin">
               <p>
                 <i className='fab fa-linkedin' />
               </p>
@@ -31,12 +31,12 @@ export default function Contact() {
                 <i className="fa fa-envelope" aria-hidden="true"></i>
               </p>
             </a>
-            <a class="social-icon-link1 instagram" target="_blank" aria-label="Instagram" href="/instagram">
+            <a class="social-icon-link1 instagram" target="_blank" aria-label="Instagram" href="/react-deploy/instagram">
               <p>
                 <i className='fab fa-instagram' />
               </p>
             </a>
-            <a class="social-icon-link1 github" target="_blank" aria-label="Github" href="/github">
+            <a class="social-icon-link1 github" target="_blank" aria-label="Github" href="/react-deploy/github">
               <p>
                 <i className='fab fa-github' />
               </p>
