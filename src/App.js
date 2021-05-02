@@ -37,7 +37,8 @@ function App() {
           }}
         />
         <Route path="/react-deploy/chatapp" component={() => { 
-            window.location.href = 'https://chat-app-nodejs-npitta.herokuapp.com/'; 
+             window.open('https://chat-app-nodejs-npitta.herokuapp.com/'); 
+             window.location.href ='/react-deploy/projects';
             return null;
           }}
         />
