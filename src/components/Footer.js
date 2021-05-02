@@ -28,15 +28,34 @@ function Footer() {
             >
               <i class='fab fa-facebook-f' />
             </Link> */}
-            <Link
+            {/* <Link
               className='social-icon-link instagram'
               to='/react-deploy/instagram'
               target='_blank'
               aria-label='Instagram'
-            >
-              <i className='fab fa-instagram' />
-            </Link>
-            
+            > */}
+              <a class="social-icon-link instagram" target="_blank" aria-label="Instagram" href="https://www.instagram.com/nancyandbirdies21/">
+              <p>
+                <i className='fab fa-instagram' />
+              </p>
+            </a>
+            <a class="social-icon-link github" target="_blank" aria-label="Github" href="https://github.com/Nancyp1997">
+              <p>
+                <i className='fab fa-github' />
+              </p>
+            </a>
+            <a class="social-icon-link linkedin" target="_blank" aria-label="LinkedIn" href="https://www.linkedin.com/in/pittanancy1997/">
+              <p>
+                <i className='fab fa-linkedin' />
+              </p>
+            </a>
+            <a class="social-icon-link mail" target="_blank" aria-label="Mail" href="mailto:nancyscarlett1997@gmail.com">
+              <p>
+                <i className="fa fa-envelope" aria-hidden="true"></i>
+              </p>
+            </a>
+            {/* </Link> */}
+{/*             
             <Link
               className='social-icon-link github'
               to='/react-deploy/github'
@@ -47,12 +66,12 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link linkedin'
-              to='/react-deploy/linkedin'
+              to='https://www.linkedin.com/in/pittanancy1997/'
               target='_blank'
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>

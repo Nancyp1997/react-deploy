@@ -21,7 +21,7 @@ export default function Contact() {
 
           <div className='float-child2'>
 
-            <a class="social-icon-link1 linkedin" target="_blank" aria-label="LinkedIn" href="/react-deploy/linkedin">
+            <a class="social-icon-link1 linkedin" target="_blank" aria-label="LinkedIn" href="https://www.linkedin.com/in/pittanancy1997/">
               <p>
                 <i className='fab fa-linkedin' />
               </p>
@@ -36,7 +36,7 @@ export default function Contact() {
                 <i className='fab fa-instagram' />
               </p>
             </a>
-            <a class="social-icon-link1 github" target="_blank" aria-label="Github" href="/react-deploy/github">
+            <a class="social-icon-link1 github" target="_blank" aria-label="Github" href="https://github.com/Nancyp1997">
               <p>
                 <i className='fab fa-github' />
               </p>
