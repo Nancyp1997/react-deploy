@@ -15,13 +15,13 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/nantest/" exact component={Home} />
-        <Route path="/nantest/services" exact component={Services} />
-        <Route path="/nantest/projects" exact component={Products} />
+        <Route path="/" exact component={Home} />
+        <Route path="/services" exact component={Services} />
+        <Route path="/projects" exact component={Products} />
         
-        <Route path="/nantest/contact" exact component={Contact} />
+        <Route path="/contact" exact component={Contact} />
         {/* <Route path="/sign-up" exact component={SignUp} /> */}
-        <Route path="/nantest/facedetection" component={() => { 
+        <Route path="/facedetection" component={() => { 
             window.location.href = 'https://github.com/Nancyp1997/ComputerVisionProjects'; 
             return null;
           }}
