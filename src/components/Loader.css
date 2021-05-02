@@ -1,0 +1,13 @@
+.loader {
+    height: 10px;
+    width: 50%;
+    background-color: #888;
+    border-radius: 5px;
+    margin: -13px 10px 20px 130px
+  }
+  .loader-bar {
+    background-color: #6bf15e;
+    height: 10px;
+    border-radius: 5px;
+    transition: width 0.5s;
+  }

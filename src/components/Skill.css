@@ -1,0 +1,15 @@
+.skill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1em;
+    
+}
+
+.skill > p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
