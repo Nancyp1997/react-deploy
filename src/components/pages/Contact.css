@@ -78,24 +78,39 @@
     h1{
       font-size: 30px;
     }
+    
     .float-container1{
       /* border: 1px solid green; */
       border-radius: 10px;
       margin-left: 3em;
       margin-right: 2em;
+      padding: 0.2em;
+      
+      display: flex;
+      flex-direction: column;
+      
     }
     .float-container1 >h3{
       font-size: 18px;
       /* color: red; */
-    }
-    .float-child1{
-      /* border: 1px solid red; */
-      margin-left: -3em;
-      width: 50%;
+      margin-left: -4em;
       
     }
-    .float-child2{
-      /* border: 1px solid black; */
-      width: 50%;
+
+    .wrapper{
+      /* border: 1px solid blue; */
+      display: flex;
+      margin:0em;
+      padding:0em;
+      flex: 1;
+      flex-direction: row;
+      padding-top: 7em;
     }
+    
+    /* .float-child1{
+      border: 1px solid red;
+    }
+    .float-child2{
+      border: 1px solid black; 
+    } */
   }

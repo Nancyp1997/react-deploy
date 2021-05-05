@@ -67,7 +67,9 @@
     overflow-x: hidden;
   }
   .partition{
-    margin-left: 0.5em;
-    width: 90%;
+    
+    margin-left:-2em;
+    width: 50%;
+    /* width: 90%; */
   }
 }

@@ -9,8 +9,9 @@ import fr from '../images/fr2.png';
 function Cards() {
   return (
     <div className='cards'>
+      
       <h1 className='expheading'>PROJECTS</h1>
-      <br/><br/><br/>
+      <br/><br/>
       <hr className='partition' />
       
       <div className='cards__container'>
