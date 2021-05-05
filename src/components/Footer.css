@@ -146,10 +146,10 @@
     .footer-input {
       width: 100%;
     }
-  
+/*   
     .btn {
-      width: 100%;
-    }
+      width: 50%;
+    } */
   
     .footer-link-wrapper {
       flex-direction: column;

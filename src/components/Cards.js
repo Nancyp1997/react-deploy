@@ -11,7 +11,7 @@ function Cards() {
     <div className='cards'>
       <h1 className='expheading'>PROJECTS</h1>
       <br/><br/><br/>
-      <hr/>
+      <hr className='partition' />
       
       <div className='cards__container'>
         <div className='cards__wrapper'>

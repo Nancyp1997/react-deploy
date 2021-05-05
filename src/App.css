@@ -50,3 +50,19 @@
   padding-left: 12em;
   padding-right: 12em;
 }
+
+@media screen and (max-width:960px){
+  .partition{
+    margin-left: 3em;
+    width: 90%;
+  }
+}
+
+/* Mobile screens */
+@media screen and (max-width: 768px){
+  
+  .partition{
+    margin-left: 0.5em;
+    width: 90%;
+  }
+}

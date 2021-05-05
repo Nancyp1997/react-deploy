@@ -58,22 +58,22 @@ function Experience() {
                     <div className='cards__wrapper'>
                         <div className='float-container'>
                             <div className='float-child'>
-                                <h3>UIC (Starting Fall 21)</h3>
+                                <h3>UIC(Fall 21)</h3>
                                 <p className='courseName'>Chicago, USA.</p>
-                                <p className='courseName'>Aug 2021-</p>
+                                {/* <p className='courseName'></p> */}
                                 <ul className='courseList'>
-                                    <li>MS Computer Science </li> 
+                                    <li>MS CS </li> 
                                 </ul>
                                 
                                 
                             </div>
                             <div className='float-child'>
-                                <h3>Dhirubhai Ambani Institute of ICT </h3>
-                                <p className='courseName'>Gujarat, India.</p>
-                                <p className='courseName'>2014-18</p>
+                                <h3>DAIICT </h3>
+                                <p className='courseName'>Gujarat, India.(2014-18)</p>
+                                {/* <p className='courseName'>2014-18</p> */}
                                 {/* <Skill name='Probability' progress='0' message=' ' /> */}
                                 <ul className='courseList'>
-                                    <li>B.Tech Information and Communication Technology </li>
+                                    <li>B.Tech ICT </li>
                                     
                                     
                                 </ul>
