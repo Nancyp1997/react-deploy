@@ -58,7 +58,7 @@ function Experience() {
                     <div className='cards__wrapper'>
                         <div className='float-container'>
                             <div className='float-child'>
-                                <h3>UIC(Fall 21)</h3>
+                                <h3>UIC(Fall 21- )</h3>
                                 <p className='courseName'>Chicago, USA.</p>
                                 {/* <p className='courseName'></p> */}
                                 <ul className='courseList'>

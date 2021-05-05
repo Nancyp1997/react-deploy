@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* font-family: 'PT Sans', sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .home,
@@ -27,7 +27,7 @@
 
 .contact {
   /* background-image: url('images/img-2.jpg'); */
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@
 }
 
 .products {
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
   /* background-image: url('images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
@@ -52,6 +52,9 @@
 }
 
 @media screen and (max-width:960px){
+  body{
+    overflow-x: hidden;
+  }
   .partition{
     margin-left: 3em;
     width: 90%;
@@ -60,7 +63,9 @@
 
 /* Mobile screens */
 @media screen and (max-width: 768px){
-  
+  body{
+    overflow-x: hidden;
+  }
   .partition{
     margin-left: 0.5em;
     width: 90%;

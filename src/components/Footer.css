@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'PT Sans', sans-serif;
+    /* font-family: 'PT Sans', sans-serif; */
   }
   
   .footer-subscription {
@@ -21,8 +21,9 @@
   }
   
   .footer-subscription > p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', */
+      /* 'Lucida Sans', Arial, sans-serif; */
+      color: whitesmoke;
   }
   
   .footer-subscription-heading {

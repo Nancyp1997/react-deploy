@@ -9,7 +9,7 @@
 h1 {
   font-size: 50px;
   text-align: center;
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
 }
 
 .cards__container {
@@ -33,7 +33,7 @@ h1 {
 
 .cards__items {
   margin-bottom: 24px;
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
 }
 
 .cards__item {
@@ -110,13 +110,13 @@ h1 {
   font-size: 25px;
   line-height: 24px;
   margin-bottom: 10px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   margin-left: 15px;
 }
 
 .cards__item__description {
   color:rgb(108, 108, 110);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   margin-left: 1em;
 }
 
@@ -131,12 +131,12 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items:inherit;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   
 }
 
 li{
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   margin: 0 0 5px 0;
 }
 
@@ -159,7 +159,8 @@ li{
 }
 
 .float-child > h3{
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  color: #242424;
 }
 
 .courseName{
@@ -268,6 +269,7 @@ li{
 
   .float-container{
     /* background-color: lightgoldenrodyellow; */
+    margin-top: -2em;
     margin-left: 7em;
     width: 100%;
     margin-right: -1em;
@@ -289,23 +291,24 @@ li{
     display: none;
   }
 
+  .float-child >h3{
+    /* color: blue; */
+    font-size: 17px;
+    height: 20px;
+  }
+
   .courseName{
     margin-left: 3em;
     /* color:red; */
-    font-size: 10px;
+    font-size: 12px;
     height: 10px;
-  }
-  .float-child >h3{
-    /* color: blue; */
-    font-size: 15px;
-    height: 20px;
   }
 
   .courseList{
     margin-top: 10px;
     /* color: lightgreen; */
     /* margin-left: -3em; */
-    font-size: 14px;
+    font-size: 12px bold;
     list-style-type: none;
   }
   
