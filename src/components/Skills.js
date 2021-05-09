@@ -66,18 +66,18 @@ function Experience() {
                     <div className='cards__wrapper'>
                         <div className='float-container'>
                             <div className='float-child'>
-                                <div className='school'>
+                                {/* <div className='school'> */}
                                     <h3>UIC(Fall 21- )</h3>
                                     {/* <p className='courseName'>Chicago, USA.</p> */}
                                     {/* <p className='courseName'></p> */}
                                     <ul className='courseList'>
                                         <li>MS CS </li>
                                     </ul>
-                                </div>
+                                {/* </div> */}
 
                             </div>
                             <div className='float-child'>
-                                <div className='school'>
+                                {/* <div className='school'> */}
                                     <h3>DAIICT [2014-18] </h3>
                                     {/* <p className='courseName'>Gujarat, India.(2014-18)</p> */}
                                     {/* <p className='courseName'>2014-18</p> */}
@@ -85,7 +85,7 @@ function Experience() {
                                     <ul className='courseList'>
                                         <li>B.Tech ICT </li>
                                     </ul>
-                                </div>
+                                {/* </div> */}
                             </div>
                         </div>
                     </div>

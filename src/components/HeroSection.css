@@ -40,7 +40,7 @@ video{
 }
 
 .hero-container > p{
-    margin-top: 8px;
+    margin-top: 0em;
     color: #242424;
     font-size: 25px;
     /* font-family: 'Times New Roman', Times, serif; */
@@ -50,8 +50,8 @@ video{
 }
 
 .hero-btns {
-    margin-top: 32px;
-    color: #242424;
+    margin-top: 12px;
+    
 }
 
 .hero-btns .btns {
@@ -70,18 +70,18 @@ video{
 
 .btn {
     /* width: 100%; */
-    color: #242424;
-    margin-left: 3em;
+    color: #fff;
+    margin-left: 0em;
 }
 
 
  .profilepic{
-    object-fit: cover;
-    width:300px;
-    height:300px;
+    object-fit:scale-down;
+    width:350px;
+    height: 350px;
     margin-top: -10em;
     margin-left: 5em;
-    background-color: rgb(68, 64, 64);
+    background-color: #242424;
     padding: 0.3em;
 } 
 

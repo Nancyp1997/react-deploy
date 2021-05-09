@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-import img1 from '../images/propic.png';
+import img1 from '../images/two.jpg';
 
 
 function shit(){
@@ -14,13 +14,12 @@ function shit(){
 
 
 function HeroSection() {
-
+ 
   return (
   <div className='boss'>
     <div className='hero-container'>
       {/* <video src='/videos/giffy.gif' autoPlay loop muted /> */}
       <h1> Hey, I'm Nancy.</h1>
-      <br/>
       <p>I'm a software engineer and an ardent learner. I enjoy turning complex problems into simple and intuitive solutions.</p>
       <br/>
       <div className='hero-btns'>

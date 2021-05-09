@@ -10,6 +10,8 @@ h1 {
   font-size: 50px;
   text-align: center;
   /* font-family: 'PT Sans', sans-serif; */
+  /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17); */
+  padding: 1em 0 1em 0;
 }
 
 .cards__container {
@@ -19,6 +21,7 @@ h1 {
   max-width: 3320px;
   width: 100%;
   margin: 0 auto;
+  
   /* border: 1px solid red; */
 }
 
@@ -26,8 +29,10 @@ h1 {
   position: relative;
   margin: 50px 0 45px 0;
   width: 80%;
-  
-  
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  padding-top:10px;
+  padding-bottom: 10px;
+  /* background-color: rgb(198, 209, 209); */
   /* border: 1px solid yellow; */
 }
 
@@ -330,17 +335,16 @@ li{
 
  
 
-  .school{
-
-    margin-top: 1em;
+  /* .school{
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
-  }
-  .courseList{
+  } */
+  /* .courseList{
     font-size: 15px ;
     list-style-type: none;
     float: right;
     margin-right: -10em;
     margin-top: -3em;
-  }
+  } */
   
 }

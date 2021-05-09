@@ -10,12 +10,14 @@ import Contact from './components/pages/Contact';
 
 
 
+
 function App() {
   return (
     <>
       <Router>
         <ScrollToTop>
           <Navbar />
+          
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/react-deploy" exact component={Home} />
