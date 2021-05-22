@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-deploy/static/css/main.8b96bf83.chunk.css",
+    "main.js": "/react-deploy/static/js/main.58d1e5b6.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.58d1e5b6.chunk.js.map",
+    "runtime-main.js": "/react-deploy/static/js/runtime-main.18ab7ab3.js",
+    "runtime-main.js.map": "/react-deploy/static/js/runtime-main.18ab7ab3.js.map",
+    "static/js/2.7f02ffa8.chunk.js": "/react-deploy/static/js/2.7f02ffa8.chunk.js",
+    "static/js/2.7f02ffa8.chunk.js.map": "/react-deploy/static/js/2.7f02ffa8.chunk.js.map",
+    "index.html": "/react-deploy/index.html",
+    "static/css/main.8b96bf83.chunk.css.map": "/react-deploy/static/css/main.8b96bf83.chunk.css.map",
+    "static/js/2.7f02ffa8.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.7f02ffa8.chunk.js.LICENSE.txt",
+    "static/media/KiViHealthIcon.04bc46dc.png": "/react-deploy/static/media/KiViHealthIcon.04bc46dc.png",
+    "static/media/air2.f291b3e6.jpeg": "/react-deploy/static/media/air2.f291b3e6.jpeg",
+    "static/media/chat3.780c3b54.png": "/react-deploy/static/media/chat3.780c3b54.png",
+    "static/media/fr2.7632ec06.png": "/react-deploy/static/media/fr2.7632ec06.png",
+    "static/media/myblog.5f704492.jpeg": "/react-deploy/static/media/myblog.5f704492.jpeg",
+    "static/media/two.1af75f57.jpg": "/react-deploy/static/media/two.1af75f57.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18ab7ab3.js",
+    "static/js/2.7f02ffa8.chunk.js",
+    "static/css/main.8b96bf83.chunk.css",
+    "static/js/main.58d1e5b6.chunk.js"
+  ]
+}
