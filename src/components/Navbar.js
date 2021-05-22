@@ -42,6 +42,16 @@ function Navbar() {
                 Home
               </Link>
             </li>
+            <li className='nav-item'>
+              <a href="/#workex" className='nav-links' onClick={closeMobileMenu}>
+              Work Ex                
+                </a>
+            </li>
+            <li className='nav-item'>
+              <a href="/#skills" className='nav-links' onClick={closeMobileMenu}>
+                Skills
+              </a>
+            </li>
             
             <li className='nav-item'>
               <Link
@@ -61,6 +71,8 @@ function Navbar() {
                 Resume
               </Link>
             </li>
+            
+            
             
             <li className='nav-item'>
               <Link

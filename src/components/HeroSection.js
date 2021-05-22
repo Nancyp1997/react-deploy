@@ -20,7 +20,7 @@ function HeroSection() {
     <div className='hero-container'>
       {/* <video src='/videos/giffy.gif' autoPlay loop muted /> */}
       <h1> Hey, I'm Nancy.</h1>
-      <p>I'm a software engineer and an ardent learner. I enjoy turning complex problems into simple and intuitive solutions.</p>
+      <p>As a master's student in Computer Science at UIC, I love to work on revolutionary technologies. My areas of interest are Data Visualisation, Computer Vision and app development. I am an ardent learner and I have worked for 3 years as a software engineer. I enjoy turning complex problems into simple and intuitive solutions. When I am not working, you can find me playing with birds.</p>
       <br/>
       <div className='hero-btns'>
         <Button

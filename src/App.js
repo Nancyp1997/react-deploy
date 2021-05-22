@@ -55,6 +55,12 @@ function App() {
               return null;
             }}
             />
+            <Route path="/react-deploy/kivihealth" component={() => {
+              window.location.href = 'https://apps.apple.com/in/app/kivihealth-for-patient/id1304195549';
+              return null;
+            }}
+            />
+            
 
             <Route path="/react-deploy/instagram" component={() => {
               window.location.href = 'https://www.instagram.com/nancyandbirdies21/';

@@ -4,9 +4,10 @@ import './Cards.css';
 function Experience() {
   return (
     <>
+    <section id="workex">
       <div className='cards'>
         <h1 className='expheading'>EXPERIENCE</h1>
-        <br /><br/>
+        
         <hr className='partition' />
   
         <div className='cards__container'>
@@ -18,6 +19,9 @@ function Experience() {
               <div className='cName'>
 
                 <h3>COMVIVA</h3>
+                
+              
+                
               </div>
               <div className='desc'>
                 
@@ -37,6 +41,9 @@ function Experience() {
             <div className='company'>
               <div className='cName'>
                 <h3>KIVITECH</h3>
+                
+               
+                
               </div>
 
               <div className='desc'>
@@ -55,7 +62,7 @@ function Experience() {
           </div>
         </div>
       </div>
-
+      </section>
     </>
   );
 }

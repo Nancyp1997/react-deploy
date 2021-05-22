@@ -1,8 +1,9 @@
 .cards {
-  padding-top: 1em;
+  /* padding-top: 1em; */
   padding-left: 4em;
   padding-right: 4em;
-  background: #fff;
+  /* background: #fff; */
+  background-color: #f8f9fa;
   color:#242424;
 }
 
@@ -29,7 +30,7 @@ h1 {
   position: relative;
   margin: 50px 0 45px 0;
   width: 80%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17); */
   padding-top:10px;
   padding-bottom: 10px;
   /* background-color: rgb(198, 209, 209); */
@@ -198,6 +199,7 @@ li{
 /*Tab screens*/
 @media screen and (max-width:960px){
   .cards{
+    /* margin-top: -10em; */
     /* background-color: teal; */
     padding-left: 3em;
     padding-right: 0em;
@@ -255,12 +257,17 @@ li{
     /* background-color: red; */
     margin: 0em;
     margin-top:1em;
+    /* border: 1px solid green; */
   }
 
   .cards__wrapper{
     /* background-color: rebeccapurple; */
-    margin:0em;
+    
+    width: 100%;
+    margin-top: 0em;
+    margin-bottom: 0em;
     padding: 0em;
+    /* border: 1px solid red; */
   }
   .company{
     /* background-color: royalblue; */
@@ -286,14 +293,7 @@ li{
 
   .cards__items{
     margin: 0em;
-  }
-  .cards__wrapper{
-    border: 1px solid white;
-  }
-
-  .cards__container{
-    border: 1px solid white;
-  }
+  }  
 
   .float-container{
     
