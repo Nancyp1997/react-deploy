@@ -43,12 +43,12 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <a href="/#workex" className='nav-links' onClick={closeMobileMenu}>
+              <a href="/react-deploy/#workex" className='nav-links' onClick={closeMobileMenu}>
               Work Ex                
                 </a>
             </li>
             <li className='nav-item'>
-              <a href="/#skills" className='nav-links' onClick={closeMobileMenu}>
+              <a href="/react-deploy/#skills" className='nav-links' onClick={closeMobileMenu}>
                 Skills
               </a>
             </li>
@@ -59,6 +59,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
+                
                 Projects
               </Link>
             </li>
